@@ -55,6 +55,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uyR-N3-d6b">
                                         <rect key="frame" x="130.5" y="297" width="82" height="31"/>
                                         <state key="normal" image="dealbutton"/>
+                                        <connections>
+                                            <action selector="dealTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="no3-hf-CSY"/>
+                                        </connections>
                                     </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="top" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="Biz-W2-IVd" userLabel="ScoreLabelStackView">
                                         <rect key="frame" x="66" y="358" width="211" height="289"/>
@@ -110,6 +113,11 @@
                             <constraint firstItem="jxQ-BM-bSm" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="yz7-Yn-TlP"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="leftImageView" destination="8U2-VM-CT9" id="XIJ-Oh-uTC"/>
+                        <outlet property="leftScoreLabel" destination="1ol-mT-ZKC" id="mwi-G4-Mwe"/>
+                        <outlet property="rightImageView" destination="3t7-qG-Hm5" id="fFe-5a-pCz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
