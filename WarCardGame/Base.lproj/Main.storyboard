@@ -117,6 +117,7 @@
                         <outlet property="leftImageView" destination="8U2-VM-CT9" id="XIJ-Oh-uTC"/>
                         <outlet property="leftScoreLabel" destination="1ol-mT-ZKC" id="mwi-G4-Mwe"/>
                         <outlet property="rightImageView" destination="3t7-qG-Hm5" id="fFe-5a-pCz"/>
+                        <outlet property="rightScoreLabel" destination="3aP-VB-OQE" id="W8D-OB-hC1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
